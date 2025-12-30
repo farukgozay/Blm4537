@@ -23,7 +23,7 @@ public class AuthController : ControllerBase
     [HttpPost("register")]
     public async Task<ActionResult<User>> Register(UserDto request)
     {
-        // Basit hashleme (Profesyonelde BCrypt kullanılır ama ders için bu yeterli)
+        // Basit hashleme 
         var user = new User { Username = request.Username, PasswordHash = request.Password }; 
         _context.Users.Add(user);
         await _context.SaveChangesAsync();
@@ -52,5 +52,5 @@ public class AuthController : ControllerBase
     }
 }
 
-// DTO (Data Transfer Object) - Sadece veri taşımak için
+//DTO(Data Transfer Object) 
 public class UserDto { public string Username { get; set; } public string Password { get; set; } }

@@ -18,5 +18,7 @@ namespace ShotForge.Api.Models
         public int PlayerId { get; set; }
         [ForeignKey("PlayerId")]
         public Player Player { get; set; }
+
+
     }
 }

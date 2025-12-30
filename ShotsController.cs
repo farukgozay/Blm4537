@@ -1,4 +1,4 @@
-// Controllers/ShotsController.cs
+
 using Microsoft.AspNetCore.Mvc;
 using ShotForge.Api.Data;
 using ShotForge.Api.Models;
