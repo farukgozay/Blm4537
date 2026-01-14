@@ -1,3 +1,5 @@
+VİDEO LİNKİ: https://www.youtube.com/watch?v=RPdb2mwzSOk
+
 PROJE DURUM ÖZETİ: ShotForge (BLM4537 iOS Mobil)
 PROJE ADI: ShotForge (Basketbol Şut Analitik Stüdyosu) DERS: BLM4537 iOS ile Mobil Uygulama Geliştirme I TARİH: 25.11.2025
 
